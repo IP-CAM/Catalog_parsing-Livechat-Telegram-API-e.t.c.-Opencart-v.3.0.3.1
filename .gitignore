@@ -1,0 +1,15 @@
+﻿Notepad++/
+system/storage/
+.buildpath
+.htaccess.txt
+
+.settings/
+Notepad++/
+deleted-files.zip
+image/
+php.ini
+robots.txt
+OCFilterInstalled.tgz
+
+config.php
+admin/config.php
