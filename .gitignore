@@ -1,5 +1,7 @@
 ﻿Notepad++/
-system/storage/
+system/storage/download/
+system/storage/cache/
+
 .buildpath
 .htaccess.txt
 
