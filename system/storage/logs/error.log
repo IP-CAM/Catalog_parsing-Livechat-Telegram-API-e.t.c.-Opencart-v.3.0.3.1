@@ -375,3 +375,5 @@
 2019-01-23 10:06:12 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
 2019-01-23 10:08:26 - PHP Notice:  Undefined index: email in C:\wamp\www\occr\catalog\controller\information\contact.php on line 21
 2019-01-23 10:08:27 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-23 14:04:47 - PHP Notice:  Undefined index: email in C:\wamp\www\occr\catalog\controller\information\contact.php on line 21
+2019-01-23 14:04:48 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
