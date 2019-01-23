@@ -23,6 +23,9 @@ class ControllerInformationContact extends Controller {
 			$mail->setSubject(html_entity_decode(sprintf($this->language->get('email_subject'), $this->request->post['name']), ENT_QUOTES, 'UTF-8'));
 			$mail->setText($this->request->post['enquiry']);
 			$mail->send();
+			
+			
+			$this->sendMessage("656543843", $this->request->post['enquiry'], "716618423:AAESLgfaO4NcdsW3FcKFCbYMlk5bwrgmKu8",$this->request->post['name'], $this->request->post['surnname'], $this->request->post['phone']);
 
 			$this->response->redirect($this->url->link('information/contact/success'));
 		}
@@ -55,6 +58,11 @@ class ControllerInformationContact extends Controller {
 			$data['error_enquiry'] = $this->error['enquiry'];
 		} else {
 			$data['error_enquiry'] = '';
+		}
+		if (isset($this->error['phone'])) {
+			$data['error_phone'] = $this->error['phone'];
+		} else {
+			$data['error_phone'] = '';
 		}
 
 		$data['button_submit'] = $this->language->get('button_submit');
@@ -146,9 +154,7 @@ class ControllerInformationContact extends Controller {
 			$this->error['name'] = $this->language->get('error_name');
 		}
 
-		if (!filter_var($this->request->post['email'], FILTER_VALIDATE_EMAIL)) {
-			$this->error['email'] = $this->language->get('error_email');
-		}
+		//TODO: добавить проверку телефона на уровне PHP тут
 
 		if ((utf8_strlen($this->request->post['enquiry']) < 10) || (utf8_strlen($this->request->post['enquiry']) > 3000)) {
 			$this->error['enquiry'] = $this->language->get('error_enquiry');
@@ -193,5 +199,15 @@ class ControllerInformationContact extends Controller {
 		$data['header'] = $this->load->controller('common/header');
 
 		$this->response->setOutput($this->load->view('common/success', $data));
+	}
+	function sendMessage($chatID, $messaggio, $token, $username="unknown", $surnname = "unknown", $phone = "unknown") {
+		//echo "sending message to " . $chatID . "\n";
+		$data1 = [
+				'text'=>urldecode("user with \n name:$username \n surnname:$surnname \n phone:$phone \n send a message: \n $messaggio"),
+				'chat_id' => $chatID
+		];
+		$url = "https://api.telegram.org/bot$token/sendMessage?" . http_build_query($data1);
+		file_get_contents("https://api.telegram.org/bot$token/sendMessage?" . http_build_query($data1) );
+		//return $result;
 	}
 }

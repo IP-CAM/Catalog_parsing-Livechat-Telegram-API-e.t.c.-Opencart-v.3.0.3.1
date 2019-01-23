@@ -17,6 +17,8 @@ $_['text_success']   = '<p>Your enquiry has been successfully sent to the store 
 $_['entry_name']     = 'Your Name';
 $_['entry_email']    = 'E-Mail Address';
 $_['entry_enquiry']  = 'Enquiry';
+$_['entry_surnname']  = 'Your surnname';
+$_['entry_phone']  = 'Your telephone';
 
 // Email
 $_['email_subject']  = 'Enquiry %s';
@@ -25,3 +27,4 @@ $_['email_subject']  = 'Enquiry %s';
 $_['error_name']     = 'Name must be between 3 and 32 characters!';
 $_['error_email']    = 'E-Mail Address does not appear to be valid!';
 $_['error_enquiry']  = 'Enquiry must be between 10 and 3000 characters!';
+$_['error_phone'] = 'Phone number must be in format +XX XXX XXX XX XX';

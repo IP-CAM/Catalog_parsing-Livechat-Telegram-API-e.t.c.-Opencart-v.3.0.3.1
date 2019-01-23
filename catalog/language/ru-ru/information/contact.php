@@ -20,6 +20,9 @@ $_['button_submit']  = 'Отправить сообщение';
 $_['entry_name']     = 'Ваше имя';
 $_['entry_email']    = 'Ваш E-Mail';
 $_['entry_enquiry']  = 'Ваш вопрос или сообщение';
+$_['entry_surnname']  = 'Ваша фамилия';
+$_['entry_telephone']  = 'Ваш телефон';
+$_['entry_enquiry']  = 'Ваш вопрос или сообщение';
 
 // Email
 $_['email_subject']  = 'Сообщение от %s';
