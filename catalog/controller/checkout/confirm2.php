@@ -2,7 +2,11 @@
 class ControllerCheckoutConfirm2 extends Controller {
 	public function index() {
 		$redirect = '';
-
+		if (!isset($_POST['name'])){
+			$this->load->language('checkout/checkout');
+			$data['error_name']=$this->language->get('error_name');
+			$this->response->redirect($this->url->link('checkout/checkout', '', ''));
+		}
 		if ($this->cart->hasShipping()) {
 			// Validate if shipping address has been set.
 			if (!isset($this->session->data['shipping_address'])) {
@@ -422,6 +426,11 @@ class ControllerCheckoutConfirm2 extends Controller {
 		}
 		
 		$this->model_checkout_order->addOrderHistory($val, 1); 
+		$this->load->model('extension/module/telegram_alert');
+		$this->model_extension_module_telegram_alert->sendMessage("msg",
+				"name",
+				"surnname",
+				"phone");
 		$this->response->redirect($this->url->link('checkout/success', '', ''));
 		$this->response->setOutput($this->load->view('checkout/confirm', $data));
 	}

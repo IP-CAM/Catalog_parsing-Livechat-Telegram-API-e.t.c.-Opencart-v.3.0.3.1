@@ -24,8 +24,12 @@ class ControllerInformationContact extends Controller {
 			$mail->setText($this->request->post['enquiry']);
 			$mail->send();
 			
-			
-			$this->sendMessage("656543843", $this->request->post['enquiry'], "716618423:AAESLgfaO4NcdsW3FcKFCbYMlk5bwrgmKu8",$this->request->post['name'], $this->request->post['surnname'], $this->request->post['phone']);
+			$this->load->model('extension/module/telegram_alert');
+			$this->model_extension_module_telegram_alert->sendMessage($this->request->post['enquiry'], 
+					$this->request->post['name'], 
+					$this->request->post['surnname'], 
+					$this->request->post['phone']);
+			//$this->sendMessage($this->request->post['enquiry'], $this->request->post['name'], $this->request->post['surnname'], $this->request->post['phone']);
 
 			$this->response->redirect($this->url->link('information/contact/success'));
 		}
@@ -200,14 +204,5 @@ class ControllerInformationContact extends Controller {
 
 		$this->response->setOutput($this->load->view('common/success', $data));
 	}
-	function sendMessage($chatID, $messaggio, $token, $username="unknown", $surnname = "unknown", $phone = "unknown") {
-		//echo "sending message to " . $chatID . "\n";
-		$data1 = [
-				'text'=>urldecode("user with \n name:$username \n surnname:$surnname \n phone:$phone \n send a message: \n $messaggio"),
-				'chat_id' => $chatID
-		];
-		$url = "https://api.telegram.org/bot$token/sendMessage?" . http_build_query($data1);
-		file_get_contents("https://api.telegram.org/bot$token/sendMessage?" . http_build_query($data1) );
-		//return $result;
-	}
+
 }

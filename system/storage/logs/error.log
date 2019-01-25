@@ -794,3 +794,102 @@
 2019-01-25 0:33:15 - PHP Notice:  Undefined index: comment in C:\wamp\www\occr\catalog\controller\checkout\confirm2.php on line 262
 2019-01-25 0:33:16 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
 2019-01-25 0:33:18 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 11:29:00 - PHP Notice:  Undefined index: comment in C:\wamp\www\occr\catalog\controller\checkout\confirm2.php on line 266
+2019-01-25 11:29:02 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 11:29:03 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 11:34:10 - PHP Notice:  Undefined index: comment in C:\wamp\www\occr\catalog\controller\checkout\confirm2.php on line 266
+2019-01-25 11:34:11 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 11:34:12 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 15:18:11 - PHP Notice:  Undefined index: email in C:\wamp\www\occr\system\storage\modification\catalog\controller\information\contact.php on line 21
+2019-01-25 15:18:12 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 16:19:22 - PHP Notice:  Undefined index: email in C:\wamp\www\occr\system\storage\modification\catalog\controller\information\contact.php on line 21
+2019-01-25 16:19:23 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 16:22:07 - PHP Notice:  Undefined index: email in C:\wamp\www\occr\system\storage\modification\catalog\controller\information\contact.php on line 21
+2019-01-25 16:22:08 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 16:24:15 - PHP Notice:  Undefined index: email in C:\wamp\www\occr\system\storage\modification\catalog\controller\information\contact.php on line 21
+2019-01-25 16:24:16 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 16:25:29 - PHP Notice:  Undefined index: email in C:\wamp\www\occr\system\storage\modification\catalog\controller\information\contact.php on line 21
+2019-01-25 16:25:30 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 16:26:40 - PHP Notice:  Undefined index: email in C:\wamp\www\occr\system\storage\modification\catalog\controller\information\contact.php on line 21
+2019-01-25 16:26:41 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 16:28:14 - PHP Notice:  Undefined index: email in C:\wamp\www\occr\system\storage\modification\catalog\controller\information\contact.php on line 21
+2019-01-25 16:28:15 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 16:30:35 - PHP Notice:  Undefined index: email in C:\wamp\www\occr\system\storage\modification\catalog\controller\information\contact.php on line 21
+2019-01-25 16:30:36 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 16:32:01 - PHP Notice:  Undefined index: email in C:\wamp\www\occr\system\storage\modification\catalog\controller\information\contact.php on line 21
+2019-01-25 16:32:02 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 16:33:13 - PHP Notice:  Undefined index: email in C:\wamp\www\occr\system\storage\modification\catalog\controller\information\contact.php on line 21
+2019-01-25 16:33:14 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 16:33:56 - PHP Notice:  Undefined index: email in C:\wamp\www\occr\system\storage\modification\catalog\controller\information\contact.php on line 21
+2019-01-25 16:33:57 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 16:35:40 - PHP Notice:  Undefined index: email in C:\wamp\www\occr\system\storage\modification\catalog\controller\information\contact.php on line 21
+2019-01-25 16:35:41 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 16:36:24 - PHP Notice:  Undefined index: email in C:\wamp\www\occr\system\storage\modification\catalog\controller\information\contact.php on line 21
+2019-01-25 16:36:25 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 16:38:26 - PHP Notice:  Undefined index: email in C:\wamp\www\occr\system\storage\modification\catalog\controller\information\contact.php on line 21
+2019-01-25 16:38:27 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 16:39:58 - PHP Notice:  Undefined index: email in C:\wamp\www\occr\catalog\controller\information\contact.php on line 21
+2019-01-25 16:40:03 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 16:40:09 - PHP Notice:  Undefined variable: token in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 10
+2019-01-25 16:40:09 - PHP Notice:  Undefined variable: url in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 10
+2019-01-25 16:40:09 - PHP Notice:  Array to string conversion in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 10
+2019-01-25 16:40:09 - PHP Warning:  http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 10
+2019-01-25 16:41:25 - PHP Warning:  file_get_contents(https://api.telegram.org/bot/sendMessage?chat_id=&amp;): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 11
+2019-01-25 16:47:52 - PHP Notice:  Undefined index: email in C:\wamp\www\occr\catalog\controller\information\contact.php on line 21
+2019-01-25 16:47:55 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 16:47:56 - PHP Notice:  Undefined variable: token in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 10
+2019-01-25 16:47:56 - PHP Notice:  Undefined variable: chatID in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 10
+2019-01-25 16:47:56 - PHP Notice:  Undefined variable: url in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 10
+2019-01-25 16:47:56 - PHP Notice:  Array to string conversion in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 10
+2019-01-25 16:47:56 - PHP Warning:  http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 10
+2019-01-25 17:11:38 - PHP Warning:  file_get_contents(https://api.telegram.org/bot/sendMessage?chat_id=&amp;): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 11
+2019-01-25 17:11:40 - PHP Notice:  Undefined index: email in C:\wamp\www\occr\catalog\controller\information\contact.php on line 21
+2019-01-25 17:11:42 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 17:11:48 - PHP Notice:  Undefined variable: token in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 9
+2019-01-25 17:11:48 - PHP Notice:  Undefined variable: chatID in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 9
+2019-01-25 17:11:48 - PHP Notice:  Undefined variable: url in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 9
+2019-01-25 17:11:48 - PHP Notice:  Array to string conversion in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 9
+2019-01-25 17:11:48 - PHP Warning:  http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 9
+2019-01-25 17:12:02 - PHP Warning:  file_get_contents(https://api.telegram.org/bot/sendMessage?chat_id=&amp;): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 10
+2019-01-25 17:12:03 - PHP Notice:  Undefined index: email in C:\wamp\www\occr\catalog\controller\information\contact.php on line 21
+2019-01-25 17:12:05 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 17:12:07 - PHP Notice:  Undefined variable: url in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 9
+2019-01-25 17:12:07 - PHP Notice:  Array to string conversion in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 9
+2019-01-25 17:12:07 - PHP Warning:  http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 9
+2019-01-25 17:12:08 - PHP Warning:  file_get_contents(https://api.telegram.org/bot716618423:AAESLgfaO4NcdsW3FcKFCbYMlk5bwrgmKu8/sendMessage?chat_id=-1001382634985&amp;): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 10
+2019-01-25 17:12:42 - PHP Notice:  Undefined index: email in C:\wamp\www\occr\catalog\controller\information\contact.php on line 21
+2019-01-25 17:12:44 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 17:12:45 - PHP Notice:  Undefined variable: url in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 9
+2019-01-25 17:12:45 - PHP Notice:  Array to string conversion in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 9
+2019-01-25 17:12:45 - PHP Warning:  http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 9
+2019-01-25 17:12:47 - PHP Warning:  file_get_contents(https://api.telegram.org/bot716618423:AAESLgfaO4NcdsW3FcKFCbYMlk5bwrgmKu8/sendMessage?chat_id=-1001382634985&amp;): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 10
+2019-01-25 17:13:09 - PHP Notice:  Undefined index: email in C:\wamp\www\occr\catalog\controller\information\contact.php on line 21
+2019-01-25 17:13:12 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 17:13:12 - PHP Notice:  Undefined variable: url in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 9
+2019-01-25 17:13:12 - PHP Notice:  Array to string conversion in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 9
+2019-01-25 17:13:12 - PHP Warning:  http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 9
+2019-01-25 17:25:07 - PHP Warning:  file_get_contents(https://api.telegram.org/bot716618423:AAESLgfaO4NcdsW3FcKFCbYMlk5bwrgmKu8/sendMessage?chat_id=-1001382634985&amp;): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 10
+2019-01-25 17:25:28 - PHP Notice:  Undefined index: email in C:\wamp\www\occr\catalog\controller\information\contact.php on line 21
+2019-01-25 17:25:31 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 17:25:32 - PHP Notice:  Undefined variable: url in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 9
+2019-01-25 17:25:32 - PHP Notice:  Array to string conversion in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 9
+2019-01-25 17:25:32 - PHP Warning:  http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 9
+2019-01-25 17:25:52 - PHP Warning:  file_get_contents(https://api.telegram.org/bot716618423:AAESLgfaO4NcdsW3FcKFCbYMlk5bwrgmKu8/sendMessage?chat_id=-1001382634985&amp;): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in C:\wamp\www\occr\catalog\model\extension\module\telegram_alert.php on line 10
+2019-01-25 17:26:11 - PHP Notice:  Undefined index: email in C:\wamp\www\occr\catalog\controller\information\contact.php on line 21
+2019-01-25 17:26:13 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 19:13:38 - PHP Notice:  Undefined index: comment in C:\wamp\www\occr\catalog\controller\checkout\confirm2.php on line 266
+2019-01-25 19:13:39 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 19:13:40 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 19:15:13 - PHP Notice:  Undefined index: comment in C:\wamp\www\occr\catalog\controller\checkout\confirm2.php on line 266
+2019-01-25 19:15:15 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 19:15:16 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 19:16:56 - PHP Notice:  Undefined index: comment in C:\wamp\www\occr\catalog\controller\checkout\confirm2.php on line 266
+2019-01-25 19:17:10 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
+2019-01-25 19:17:11 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\occr\system\library\mail\mail.php on line 77
