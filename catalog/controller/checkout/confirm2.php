@@ -263,7 +263,7 @@ class ControllerCheckoutConfirm2 extends Controller {
 				}
 			}
 
-			$order_data['comment'] = $this->session->data['comment'];
+			$order_data['comment'] = "";
 			$order_data['total'] = $total_data['total'];
 
 			if (isset($this->request->cookie['tracking'])) {
@@ -427,10 +427,19 @@ class ControllerCheckoutConfirm2 extends Controller {
 		
 		$this->model_checkout_order->addOrderHistory($val, 1); 
 		$this->load->model('extension/module/telegram_alert');
-		$this->model_extension_module_telegram_alert->sendMessage("msg",
-				"name",
-				"surnname",
-				"phone");
+		
+		$msg = "заказ номер *{$this->session->data['order_id']}*, параметры заказа : \n ";
+		foreach ($data['products'] as $prod){
+			$msg = $msg."товар: _{$prod['name']}_ \n цена: *{$prod['price']}* \n количество: *{$prod['quantity']}* \n итого по товару: *{$prod['total']}*\n ";
+		};
+		$msg = $msg."\n итого па зайавачке: *{$order_data['total']}*";
+		
+		
+		$this->model_extension_module_telegram_alert->sendMessage('Markdown',
+				$msg,
+				$order_data['firstname'],
+				"unknown",
+				$order_data['telephone']);
 		$this->response->redirect($this->url->link('checkout/success', '', ''));
 		$this->response->setOutput($this->load->view('checkout/confirm', $data));
 	}

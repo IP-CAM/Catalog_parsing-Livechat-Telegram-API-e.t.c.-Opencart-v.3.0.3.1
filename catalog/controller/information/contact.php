@@ -25,7 +25,8 @@ class ControllerInformationContact extends Controller {
 			$mail->send();
 			
 			$this->load->model('extension/module/telegram_alert');
-			$this->model_extension_module_telegram_alert->sendMessage($this->request->post['enquiry'], 
+			$this->model_extension_module_telegram_alert->sendMessage('',
+					"bardzo proszÄ™ Pana/Pani o odpowiedÅº na temat:\n".$this->request->post['enquiry'], 
 					$this->request->post['name'], 
 					$this->request->post['surnname'], 
 					$this->request->post['phone']);
@@ -158,7 +159,7 @@ class ControllerInformationContact extends Controller {
 			$this->error['name'] = $this->language->get('error_name');
 		}
 
-		//TODO: äîáàâèòü ïðîâåðêó òåëåôîíà íà óðîâíå PHP òóò
+		//TODO: Ð´Ð¾Ð±Ð°Ð²Ð¸Ñ‚ÑŒ Ð¿Ñ€Ð¾Ð²ÐµÑ€ÐºÑƒ Ñ‚ÐµÐ»ÐµÑ„Ð¾Ð½Ð° Ð½Ð° ÑƒÑ€Ð¾Ð²Ð½Ðµ PHP Ñ‚ÑƒÑ‚
 
 		if ((utf8_strlen($this->request->post['enquiry']) < 10) || (utf8_strlen($this->request->post['enquiry']) > 3000)) {
 			$this->error['enquiry'] = $this->language->get('error_enquiry');
