@@ -5,7 +5,7 @@ class ModelExtensionModuleTelegramAlert extends Model {
 		//echo "sending message to " . $chatID . "\n";
 		$data1 = [
 				'chat_id'=>$chatID1,
-				'text'=>urldecode("...:::Информация:::... \n имя: $username \n фамилия: $surnname \n сообщение:\n".$messaggio),
+				'text'=>urldecode("...:::Информация:::... \n имя: $username \n фамилия: $surnname \n телефон: $phone \n сообщение: \n".$messaggio),
 				'parse_mode'=> $parse_mode
 				];
 		$url = "https://api.telegram.org/bot$token1/sendMessage?" . http_build_query($data1);

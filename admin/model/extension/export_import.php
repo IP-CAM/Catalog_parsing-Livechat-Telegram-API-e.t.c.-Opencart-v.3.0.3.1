@@ -1391,7 +1391,7 @@ class ModelToolExportImport extends Model {
 			$product['product_id'] = $product_id;
 			$product['names'] = $names;
 			$categories = trim( $this->clean($categories, false) );
-			$product['categories'] = ($categories=="") ? array() : explode( ",", $categories );
+			$product['categories'] = ($categories=="") ? array() : preg_split( '/[,.]+/', $categories);
 			if ($product['categories']===false) {
 				$product['categories'] = array();
 			}
